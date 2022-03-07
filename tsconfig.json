@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "lib": ["esnext", "dom"],
+    "types": [
+      "@dcloudio/types",  
+      "@types/crypto-js",
+      "@types/fs-extra",
+      "@types/lodash-es"
+    ]
+  },
+  "include": [
+    "types/**/*.d.ts",
+    "types/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "build/**/*.ts",
+    "build/**/*.d.ts",
+    "mock/**/*.ts",
+    "vite.config.ts"
+  ],
+  "exclude": ["node_modules", "unpackage", "src/pages/**/*.nvue", "dist"]
+}

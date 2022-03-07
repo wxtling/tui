@@ -1,0 +1,32 @@
+export type ComponentType =
+  | 'TInput'
+  | 'TInputNumber'
+  | 'TInputTextArea'
+  | 'TSelect'
+  | 'TPicker'
+  | 'TPickerDate'
+  | 'TRadio'
+  | 'TCheckbox'
+  | 'TSwitch'
+  | 'TUpload';
+
+export type RuleType =
+  | 'string'
+  | 'number'
+  | 'boolean'
+  | 'method'
+  | 'regexp'
+  | 'integer'
+  | 'float'
+  | 'array'
+  | 'object'
+  | 'enum'
+  | 'date'
+  | 'url'
+  | 'hex'
+  | 'email'
+  | 'pattern'
+  | 'any'
+  | 'phone'
+  | 'tel'
+  | 'wechat';

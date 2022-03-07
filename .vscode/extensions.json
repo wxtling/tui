@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "misterj.vue-volar-extention-pack",
+    "esbenp.prettier-vscode",
+    "lokalise.i18n-ally",
+    "mikestead.dotenv",
+    "antfu.iconify",
+    "oouo-diogo-perdigao.docthis"
+  ]
+}
