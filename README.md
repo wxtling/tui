@@ -3,9 +3,7 @@
 
 更多实用组件、方法，会持续更新
 
-
 ## 文档
-文档地址为 [Tui-doc](https://tui-doc.1xtt.com)，采用 vuepress 开发。
+文档地址为 [Tui-doc](https://tui.1xtt.com)，采用 vuepress 开发。
 
 正在努力编写中...
-
