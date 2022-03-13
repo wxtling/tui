@@ -8,7 +8,8 @@ export type ComponentType =
   | 'TRadio'
   | 'TCheckbox'
   | 'TSwitch'
-  | 'TUpload';
+  | 'TUpload'
+  | 'TArea';
 
 export type RuleType =
   | 'string'

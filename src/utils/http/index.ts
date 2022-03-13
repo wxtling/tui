@@ -32,6 +32,11 @@ export class RequestTransform extends request {
     }
 
     if (this.result && this.result.statusCode === 200) {
+      // 不进行处理，直接返回 data
+      if (this.options?.isRequestTransform) {
+        return this.result.data;
+      }
+
       const { code, result } = this.result.data;
       if (code === 200) {
         return result;
@@ -78,7 +83,7 @@ export class RequestTransform extends request {
    *  接口调用结束的回调函数（调用成功、失败都会执行）
    */
   requestComplete() {
-    console.log('Complete =>', this);
+    // console.log('Complete =>', this);
   }
 }
 

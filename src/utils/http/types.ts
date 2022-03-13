@@ -36,6 +36,11 @@ export interface RequestConfig {
 
 export type RequestOptions<T = any> = {
   /**
+   * 不进行处理，直接返回 data
+   */
+  isRequestTransform?: boolean;
+
+  /**
    * 监听上传进度变化(只有文件上传有)
    */
   onProgressUpdate?: (res: T) => void;

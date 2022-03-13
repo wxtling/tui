@@ -24,7 +24,9 @@ type EnvTYLE =
   | 'ALIYUN_ACCESS_SECRET'
   | 'ALIYUN_HOST'
   | 'ALIYUN_PREFIX'
-  | 'ALIYUN_URL_PREFIX';
+  | 'ALIYUN_URL_PREFIX'
+  | 'AMAP_KEY'
+  | 'AMAP_AREA';
 
 export function useEnv() {
   const env = import.meta.env;

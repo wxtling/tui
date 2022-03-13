@@ -20,6 +20,7 @@
         <TCheckbox v-else-if="schema.component === 'TCheckbox'" />
         <TSwitch v-else-if="schema.component === 'TSwitch'" />
         <TUpload v-else-if="schema.component === 'TUpload'" />
+        <TArea v-else-if="schema.component === 'TArea'" />
       </TFormItem>
     </template>
     <slot />
@@ -27,6 +28,7 @@
 </template>
 
 <script lang="ts" setup>
+  import TArea from './components/TArea.vue';
   import TInput from './components/TInput.vue';
   import TInputNumber from './components/TInputNumber.vue';
   import TInputTextArea from './components/TInputTextArea.vue';

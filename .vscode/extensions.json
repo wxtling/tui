@@ -5,6 +5,8 @@
     "lokalise.i18n-ally",
     "mikestead.dotenv",
     "antfu.iconify",
-    "oouo-diogo-perdigao.docthis"
+    "oouo-diogo-perdigao.docthis",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint"
   ]
 }
